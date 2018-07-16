@@ -3,7 +3,6 @@
 }
 #menu-left {
 	position: fixed;
-	border-right: 10px #F0DB48 solid;
 	padding-bottom: 180px;
 	width: 22.22%;
 }
@@ -25,7 +24,11 @@
 }
 
 #menu-right {
-	margin-left: 30%;
+	border-left: 10px #F0DB48 solid;
+	margin-left: 25%;
+	margin-top: 100px;
+	padding-top: 32px;
+	background-color: #FFF;
 	color: #A3A3A3;
 }
 

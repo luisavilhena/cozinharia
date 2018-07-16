@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style/footer.css">
     <link rel="stylesheet" type="text/css" href="style/elements.css">
     <link rel="stylesheet" type="text/css" href="style/cardapio.css">
+    <script type="text/javascript" src="js/script.js"></script>
     <title>Cardápio</title>
 </head>
 <body>
@@ -41,14 +42,14 @@
 			<h1>Cardápio</h1>
 			<div class="rectangle rec-yellow"></div>
 			<nav>
-				<a href="#almoco">Almoço</a>
-				<a href="#jantar">Jantar</a>
-				<a href="#bebidas">Bebidas</a>
+				<a onclick="initScroll('almoco'); return false;" href="#almoco">Almoço</a>
+				<a onclick="initScroll('jantar'); return false;" href="#jantar">Jantar</a>
+				<a onclick="initScroll('bebidas'); return false;" href="#bebidas">Bebidas</a>
 			</nav>
 		</section>
 		<section id="menu-right">
-			<table>
-				<thead id="almoco">
+			<table id="almoco">
+				<thead>
 					<tr>
 					 	<th class="title">Entradas do almoço</th>
 					 	<th>Inteira</th>
@@ -170,8 +171,8 @@
 					</figcaption>
 				</figure>	
 			</div>
-			<table>
-				<thead id="jantar">
+			<table id="jantar">
+				<thead>
 					<tr>
 					 	<th class="title">Entradas do jantar</th>
 					 	<th>Inteira</th>
@@ -258,8 +259,8 @@
 					</figcaption>
 				</figure>	
 			</div>
-			<table>
-				<thead id="bebidas">
+			<table id="bebidas">
+				<thead>
 					<tr>
 					 	<th class="title">Bebidas Não Alcoólicas</th>
 					 	<th>300ml</th>
