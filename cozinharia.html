@@ -2,9 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="reset.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet"> 
-    <link rel="stylesheet" type="text/css" href="cozinharia.css">
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="style/header.css">
+    <link rel="stylesheet" type="text/css" href="style/footer.css">
+    <link rel="stylesheet" type="text/css" href="style/elements.css">
+    <link rel="stylesheet" type="text/css" href="style/cozinharia.css">
     <title>Cozinharia</title>
 </head>
 <body>
@@ -13,16 +16,18 @@
             <img src="src/logo-cozinharia.svg">
             <nav>
                 <ul>
-                    <li> <a href="#">Home </a></li>
-                    <li> <a href="#">A Cozinharia </a></li>
-                    <li> <a href="#">Cardápio </a></li>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="cozinharia.html">A Cozinharia</a>
+                        <div class="rectangle rec-yellow"></div>
+                    </li>
+                    <li> <a href="cardapio.html">Cardápio</a></li>
                     <li class= "evento"> <a href="#">Evento </a>
                         <ul class= "menu-hover">
                             <li> 
-                                <a href="#">Casamentos</a>
+                                <a href="casamentos-details.html">Casamentos</a>
                             </li> 
                             <li> 
-                                <a href="#">Empresariais</a>
+                                <a href="empresariais-details.html">Empresariais</a>
                             </li>      
                         </ul>
                     </li>
@@ -31,15 +36,15 @@
             </nav>
         </div>      
     </header>
-    <section id="page-content" class= "container">
+    <section id="cozinharia-page-content" class="container">
         <h1>A Cozinharia</h1>
-        <div class="rectangle-yellow"></div>
-        <section id= "content">
-            <div class= "text">
+        <div class="rectangle rec-yellow"></div>
+        <section id="content">
+            <div class="text">
                 <h2>Ambiente tranquilo, música ao vivo</h2>
                 <p>A cozinharia conta com um ambiente <strong> amigável</strong>, repleto de muitas <strong>  árvores nativas</strong> e <strong> música basileira ao vivo </strong> cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
                 </p>
-                <div class = "horarios">
+                <div class ="horarios">
                     <h2>Horários musicais:</h2>
                     <h3>Terça a quinta-feira - das<em> 18h às 22h</em></h3>
                     <h3>Sexta e sábado - das<em> 11h às 02h</em></h3>
